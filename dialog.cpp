@@ -18,13 +18,13 @@ dialog::~dialog()
 
 void dialog::on_pushButton_clicked()
 {
-     QMessageBox::information(this,"Revathi 212218205042","This is information");
+     QMessageBox::information(this,"Janakiram 212218205018","This is information");
 }
 
 void dialog::on_pushButton_2_clicked()
 {
     QMessageBox::StandardButton reply;
-         reply = QMessageBox::question(this, "Revathi", "Do you like Biriyani?", QMessageBox::Yes|QMessageBox::No);
+         reply = QMessageBox::question(this, "Janakiram", "Do you like Burger?", QMessageBox::Yes|QMessageBox::No);
          if (reply == QMessageBox::Yes) {
              QMessageBox::information(this,"Yes","You selected Yes");
          }
